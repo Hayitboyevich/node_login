@@ -10,7 +10,6 @@ app.get('/', (req, res)=>{
         title:"Home Page"
     })
 })
-
 app.use('/login', login);
 app.use('/register', register);
 app.use('/admin', user);
